@@ -8,13 +8,13 @@ import model.entities.Department;
 public class DepartmentDaoJDBC implements DepartmentDao{
 
 	@Override
-	public void insert(Department obj) {
+	public void insert(Department dep) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void uptade(Department obj) {
+	public void uptade(Department dep) {
 		// TODO Auto-generated method stub
 		
 	}
