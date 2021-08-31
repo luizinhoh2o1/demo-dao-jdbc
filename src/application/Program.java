@@ -38,6 +38,11 @@ public class Program {
 		sd.insert(newSeller);
 		System.out.println("Inserted! New id= " + newSeller.getId());
 		
+		System.out.println("--- Teste 5 : Seller updagte ---");
+		sel = sd.findById(1);
+		sel.setName("Vozim Wane");
+		sd.uptade(sel);
+		System.out.println("Update completed!");
 	}
 
 }
