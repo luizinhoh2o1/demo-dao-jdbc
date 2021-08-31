@@ -25,6 +25,13 @@ public class Program {
 			System.out.println(seller);
 		}
 		
+		System.out.println("--- Teste 3 : Seller findAll ---");
+		list = sd.findAll();
+		
+		for (Seller seller: list) {
+			System.out.println(seller);
+		}
+		
 	}
 
 }
