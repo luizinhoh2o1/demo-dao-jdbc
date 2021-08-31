@@ -43,6 +43,11 @@ public class Program {
 		sel.setName("Vozim Wane");
 		sd.uptade(sel);
 		System.out.println("Update completed!");
+		
+		System.out.println("--- Teste 6 : Seller delete ---");
+		sel = sd.findById(5);
+		sd.deleteById(sel.getId());
+		System.out.println("Delete completed!");
 	}
 
 }
