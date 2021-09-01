@@ -45,8 +45,7 @@ public class Program {
 		System.out.println("Update completed!");
 		
 		System.out.println("--- Teste 6 : Seller delete ---");
-		sel = sd.findById(5);
-		sd.deleteById(sel.getId());
+		sd.deleteById(3);
 		System.out.println("Delete completed!");
 	}
 
