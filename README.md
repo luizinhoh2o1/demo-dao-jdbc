@@ -1,2 +1,2 @@
 # demo-dao-jdbc
-Exemplo DAO JDBC
+Exemple DAO JDBC
